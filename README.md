@@ -10,7 +10,7 @@ src/redux/reducer/reducer.js : have experimental reducer data
 The following explains how to setup app.
 
 Step: 1 go to link
-
+https://github.com/mogilisai/applications.git
 
 Step: 2 clone or download
 
