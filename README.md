@@ -1,4 +1,5 @@
 # applications
+This application is used for tracing the bike latitude and longitude in google maps using google map api and one of the company "credr" which is online shopping for used bike. 
 #folder setup:
 
 src/components folder: all the component use in the bulid

@@ -1,5 +1,5 @@
 import React from 'react';
-
+//creating tabular format for view 
  const Bike = (props) => (
      <table>
      <thead>

@@ -1,6 +1,6 @@
 import initState from './init_state';
 import { SAVE_TO_STORE, SAVE_LONG_LAT } from '../actions/index.js';
-
+//action and reducer interaction for updating the state
 export default function(state=initState, action = {}) {
   let newState = state;
   switch(action.type) {

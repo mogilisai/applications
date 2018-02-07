@@ -5,7 +5,7 @@ import {MapComponent} from '../components/map';
 import Bike from '../components/list_component';
 import { fetchData, getLatLng } from '../redux/actions/index';
 import '../style/map.css';
-
+//comibing the components of map and list of bikes using api data
 class App extends Component {
   constructor(props){
     console.log(props,'props')
@@ -38,7 +38,7 @@ class App extends Component {
         );
      }
   }
-
+// getting the state from reducer 
 function mapStateToProps(state, ownProps) {
   const { apiResult, currentLocation } = state;
   console.log(state,'apiResult')
@@ -49,7 +49,7 @@ function mapStateToProps(state, ownProps) {
     lat: currentLocation.latitude
   };
 }
-
+//dispacting the action 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({
     fetchData,
